@@ -22,7 +22,7 @@ export default async function Product() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <h1 className="text-4xl font-bold">Welcome to Next.js!</h1>  
         <ul className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {products  .map((product) => (
+          {products .map((product) => (
             <li key={product.id} className="border p-4 rounded-md shadow-md">
               <h1>brand:{product.brand} </h1>
               <h2 className="font-semibold">{product.title}</h2>
